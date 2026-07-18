@@ -23,6 +23,15 @@ Same lab set up as cybersecurity_home_lab >> https://github.com/jaya049/cybersec
 
 ## Reconnaissance Methodology
 
+### Phase 1: Verify Connectivity
+From Kali : ping <windows_ip>
+<img width="358" height="131" alt="image" src="https://github.com/user-attachments/assets/cae74e3b-7f6b-4a86-87d3-a4ab345bc4f8" />
+
+### Phase 2: Host Discovery
+From Kali : nmap -sn <windows_ip>
+<img width="307" height="68" alt="image" src="https://github.com/user-attachments/assets/b4899f71-30f6-47f6-b685-aa4556696d94" />
+
+
 ## Scan Results
 
 ## Findings
