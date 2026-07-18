@@ -31,6 +31,18 @@ From Kali : ping <windows_ip>
 From Kali : nmap -sn <windows_ip>
 <img width="307" height="68" alt="image" src="https://github.com/user-attachments/assets/b4899f71-30f6-47f6-b685-aa4556696d94" />
 
+- This checks whether a host is online without scanning for open ports.
+- With -sn Nmap skips port scan and only check which devices are online; Faster than port scan. Instead of scanning every single IP for open ports (which is slower), you first discover which devices are actually online.
+- Benefits
+    - Faster scanning
+    - Less unnecessary network traffic
+    - Better organized reconnaissance
+    - Common first step during penetration testing and network inventories
+- Findings (From out screenshot)
+    -  The target host responded successfully to the host discovery scan.
+    -  Host is online
+    -  VirtualBox network adapter detected
+
 
 ## Scan Results
 
